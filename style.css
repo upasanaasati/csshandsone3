@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: maroon;
+    text-shadow: 1px 1.5px 1px rgb(111, 8, 98);
+    font-size: larger;
+
+    height: 100px;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px 1px purple;
+    border: 5px solid red;
+    padding-top: 15px;
+    background-color: white;
+}
+
+.container1{
+    border: 8px solid green;
+    height: 500px;
+    width: 1502px;
+}
+
+.ubox{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 1px purple;
+    border: 5px solid red;
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1.5px 1px purple;
+    background-color: white;
+}
+
+.box1{
+    float: left;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.box2{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    padding-top: 25px;
+    background-color: white;
+}
+
+.box3{
+    float: left;
+    clear: left;
+    margin-top: 30px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.box4{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+button{
+    color:black;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#sub1{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1.5px 1px purple;
+}
+
+#rat1{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1.5px 1px purple;
+}
+
+#number{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.scontainer{
+    position: fixed;
+    top: 570px;
+    left: 590px;
+    z-index: 1;
+}
+
+.box5{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 380px;
+    border: 5px solid red;
+    background-color:rgb(150, 231, 45);
+    color: red;
+    border-radius: 15px;
+    box-shadow: 4px 4px 1px 1px purple;
+
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+}
+
+#p1{
+    background-color: rgb(150, 231, 45);
+    color: maroon;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 210px;
+}
+
+#p2{
+    background-color: rgb(150, 231, 45);
+    color: maroon;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    text-align: center;
+}
+
+.container2{
+    border: 8px solid purple;
+    background-color: green;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    height: 530px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h2{
+    padding-top: 20px;
+    background-color: green;
+}
+
+.vbox1{
+    height: 205px;
+    width: 49.5%;
+    background-color: khaki;
+    color: black;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding-top: 15px; 
+}
+
+.vbox2{
+    height: 200px;
+    width: 49.5%;
+    background-color: khaki;
+    color: black;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding-top: 15px; 
+}
+
+#Fruits{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-color: khaki;
+    font-size: 24px;
+    position: relative;
+    bottom: 10px;
+}
+
+#Vegetables{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-color: khaki;
+    font-size: 24px;
+    position: relative;
+    bottom: 10px;
+}
+
+#Otheritems{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-color: khaki;
+    font-size: 24px;
+    position: relative;
+}
+
+p{
+  font-style: italic;
+  color: black;
+  line-height: 35px;
+  background-color: khaki;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#p3{
+    font-style: italic;
+    color: black;
+    line-height: 40px;
+    background-color: khaki;
+    font-family:'Courier New', Courier, monospace; 
+}
+
+.pbox1{
+    height: 200px;
+    width: 1008px;
+    background-color: khaki;
+    clear: both;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
